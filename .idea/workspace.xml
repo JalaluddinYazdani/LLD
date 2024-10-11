@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37922ce9-0394-4887-bbd9-d754307b34d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Streams/Streams1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Streams/Streams1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Streams/Streams1/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Streams/Streams2/DataAggregator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Streams/Streams2/DataBaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Streams/Streams2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambdas/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +84,20 @@
       <recent name="C:\Users\DELL\Desktop\LLD\src\synchronization\AdderSubtractorMutex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambdas.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Streams.Streams1.Demo" />
       <module name="LLD" />
@@ -109,19 +117,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Streams.Streams2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriorityQueue.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PriorityQueue.Client" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PriorityQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Streams.Streams1.Client" />
         <item itemvalue="Application.TreeSet.Client" />
-        <item itemvalue="Application.PriorityQueue.Client" />
       </list>
     </recent_temporary>
   </component>
