@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37922ce9-0394-4887-bbd9-d754307b34d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Streams/Streams1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Streams1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Streams1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Streams2/DataAggregator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Streams2/DataBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Streams2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,39 +40,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListIterator.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PhonePeApi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Polymorphism.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PriorityQueue.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticCounter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.copyConstructor.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.customConstructor.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.defaultConstructor.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.demo3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.introToOop.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.methodOverriding.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.synchronization.AdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.synchronization.AdderSubtractorMutex.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.synchronization.AdderSubtractorSynchronized.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.synchronization.AtomicAdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.synchronization.ProducerConsumerMutex.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.synchronization.ProducerConsumerSemaphores.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.threads.HelloWorldPrinter.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.threads.executors.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.threads.mergesort.Client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Desktop/LLD/src/defaultConstructor&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL/Desktop/LLD/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.Client1.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.LinkedListIterator.Client.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PhonePeApi.executor": "Run",
+    "Application.Polymorphism.Client.executor": "Run",
+    "Application.PriorityQueue.Client.executor": "Run",
+    "Application.StaticCounter.executor": "Run",
+    "Application.Streams.Streams1.Client.executor": "Run",
+    "Application.copyConstructor.Client.executor": "Run",
+    "Application.customConstructor.Client.executor": "Run",
+    "Application.defaultConstructor.Client.executor": "Run",
+    "Application.demo1.executor": "Run",
+    "Application.demo2.executor": "Run",
+    "Application.demo3.executor": "Run",
+    "Application.introToOop.Client.executor": "Run",
+    "Application.methodOverriding.Client.executor": "Run",
+    "Application.synchronization.AdderSubtractor.Client.executor": "Run",
+    "Application.synchronization.AdderSubtractorMutex.Client.executor": "Run",
+    "Application.synchronization.AdderSubtractorSynchronized.Client.executor": "Run",
+    "Application.synchronization.AtomicAdderSubtractor.Client.executor": "Run",
+    "Application.synchronization.ProducerConsumerMutex.Client.executor": "Run",
+    "Application.synchronization.ProducerConsumerSemaphores.Client.executor": "Run",
+    "Application.threads.HelloWorldPrinter.Client.executor": "Run",
+    "Application.threads.executors.Client.executor": "Run",
+    "Application.threads.mergesort.Client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL/Desktop/LLD/src/defaultConstructor",
+    "onboarding.tips.debug.path": "C:/Users/DELL/Desktop/LLD/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="synchronization.AdderSubtractor" />
@@ -80,13 +89,13 @@
       <recent name="C:\Users\DELL\Desktop\LLD\src\synchronization\AdderSubtractorMutex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeSet.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashSetDemo.Client" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Streams1.Demo" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashSetDemo.*" />
+          <option name="PATTERN" value="Streams.Streams1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListIterator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedListIterator.Client" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Streams2.Main" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedListIterator.*" />
+          <option name="PATTERN" value="Streams.Streams2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Streams.Streams1.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Streams1.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Streams.Streams1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreeSet.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TreeSet.Client" />
       <module name="LLD" />
@@ -133,26 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.demo3" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExceptionHandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Streams.Streams1.Client" />
         <item itemvalue="Application.TreeSet.Client" />
         <item itemvalue="Application.PriorityQueue.Client" />
-        <item itemvalue="Application.LinkedListIterator.Client" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.demo3" />
       </list>
     </recent_temporary>
   </component>
