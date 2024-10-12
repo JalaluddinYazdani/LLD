@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37922ce9-0394-4887-bbd9-d754307b34d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/lambdas2/AdditionalOpertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/lambdas2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/lambdas2/MathematicalOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/lambdas2/SomethingDoer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/lambdas2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/lambdas2/SubtractionOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionInterface/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionInterface/FuncClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionInterface/FuncDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionInterface/FuncInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,42 +38,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Run",
-    "Application.Client1.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.LinkedListIterator.Client.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PhonePeApi.executor": "Run",
-    "Application.Polymorphism.Client.executor": "Run",
-    "Application.PriorityQueue.Client.executor": "Run",
-    "Application.StaticCounter.executor": "Run",
-    "Application.Streams.Streams1.Client.executor": "Run",
-    "Application.copyConstructor.Client.executor": "Run",
-    "Application.customConstructor.Client.executor": "Run",
-    "Application.defaultConstructor.Client.executor": "Run",
-    "Application.demo1.executor": "Run",
-    "Application.demo2.executor": "Run",
-    "Application.demo3.executor": "Run",
-    "Application.introToOop.Client.executor": "Run",
-    "Application.methodOverriding.Client.executor": "Run",
-    "Application.synchronization.AdderSubtractor.Client.executor": "Run",
-    "Application.synchronization.AdderSubtractorMutex.Client.executor": "Run",
-    "Application.synchronization.AdderSubtractorSynchronized.Client.executor": "Run",
-    "Application.synchronization.AtomicAdderSubtractor.Client.executor": "Run",
-    "Application.synchronization.ProducerConsumerMutex.Client.executor": "Run",
-    "Application.synchronization.ProducerConsumerSemaphores.Client.executor": "Run",
-    "Application.threads.HelloWorldPrinter.Client.executor": "Run",
-    "Application.threads.executors.Client.executor": "Run",
-    "Application.threads.mergesort.Client.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DELL/Desktop/LLD/src/defaultConstructor",
-    "onboarding.tips.debug.path": "C:/Users/DELL/Desktop/LLD/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListIterator.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PhonePeApi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polymorphism.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PriorityQueue.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticCounter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Streams.Streams1.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.copyConstructor.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.customConstructor.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.defaultConstructor.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.introToOop.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.methodOverriding.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.synchronization.AdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.synchronization.AdderSubtractorMutex.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.synchronization.AdderSubtractorSynchronized.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.synchronization.AtomicAdderSubtractor.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.synchronization.ProducerConsumerMutex.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.synchronization.ProducerConsumerSemaphores.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.threads.HelloWorldPrinter.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.threads.executors.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.threads.mergesort.Client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Desktop/LLD/src/defaultConstructor&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL/Desktop/LLD/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="synchronization.AdderSubtractor" />
@@ -193,6 +191,11 @@
           <url>file://$PROJECT_DIR$/src/PriorityQueue/Client.java</url>
           <line>8</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lambdas/lambdas2/Main.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/synchronization/ProducerConsumerMutex/Client.java</url>
