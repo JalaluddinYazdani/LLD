@@ -2,12 +2,12 @@ package builder;
 
 public class Client {
     public static void main(String[] args) {
-        Helper helper = new Helper();
-        helper.name= "Jalal";
-        helper.age=21;
-        helper.universityName="Osmania University";
+        Student st = Student.getBuilder()
+                .setAge(31)
+                .setName("Nikhil")
+                .build();
 
-        Student st = new Student(helper);
+        //Student st = builder.build();
 
         System.out.println("Debug");
     }

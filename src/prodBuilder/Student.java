@@ -9,9 +9,9 @@ public class Student {
     double cgpa;
     String address;
     public  Student(Builder builder){
-        if(builder.getAge()>100){
-            throw new IllegalAccessException("Age can't be greater than 100");
-        }
+//        if(builder.getAge()>100){
+//            throw new IllegalAccessException("Age can't be greater than 100");
+//        }
         this.name=builder.getName();
 
     }
